@@ -1,0 +1,17 @@
+body {
+    background-color: rgba(22, 38, 51, 0.836);
+}
+#messages > div:nth-child(odd) {
+    color: rgb(22, 38, 51);
+    background-color: rgba(255, 255, 255, 0.966);
+    border-radius: 10px;
+    margin: 4px 0;
+    padding: 8px;
+}
+
+#messages > div:nth-child(even) {
+    background-color: rgba(22, 38, 51, 0.281);
+    border-radius: 10px;
+    margin: 8px 0;
+    padding: 8px;
+}
